@@ -1,0 +1,11 @@
+enum_discrim_align_threshold = 20
+hard_tabs = true
+imports_layout = "Vertical"
+match_block_trailing_comma = true
+imports_granularity = "Item"
+newline_style = "Unix"
+overflow_delimited_expr = true
+group_imports = "StdExternalCrate"
+struct_field_align_threshold = 20
+type_punctuation_density = "Compressed"
+#wrap_comments = true

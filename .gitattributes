@@ -1,0 +1,3 @@
+#* text=auto
+*.inc diff=sourcepawn linguist-language=SourcePawn
+*.sp diff=sourcepawn linguist-language=SourcePawn

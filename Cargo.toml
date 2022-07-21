@@ -1,0 +1,25 @@
+[package]
+name = "bhoptimer_helper"
+version = "1.0.0"
+authors = ["rtldg"]
+edition = "2021"
+#description = "asdf"
+documentation = "https://github.com/srcwr/bhoptimer_helper_minimal"
+homepage = "https://github.com/srcwr/bhoptimer_helper_minimal"
+repository = "https://github.com/srcwr/bhoptimer_helper_minimal"
+license = "GPL-3.0-or-later"
+#keywords = ["asdf", "jkl"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[build-dependencies]
+cc = "1.0.73"
+
+[dependencies]
+parking_lot = "0.12.1"
+libc = "0.2.126"
+lazy_static = "1.4.0"
+
+#sm-ext = { git = "https://github.com/srcwr/sm-ext-rs" }
+sm-ext = { path = "../sm-ext-rs", features = ["abi_thiscall"] }
